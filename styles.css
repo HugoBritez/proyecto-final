@@ -513,7 +513,6 @@ a {
   left: 1.5rem;
   width: 210px;
   height: 300px;
-  padding: 1.5rem;
   background: linear-gradient(180deg, #181818, #0b0b0b);
   /* rotation handled by float-a keyframe */
 }
@@ -523,7 +522,6 @@ a {
   top: 9.5rem;
   width: 170px;
   height: 240px;
-  padding: 1.25rem;
   background: linear-gradient(180deg, #facc15, #d4a90d);
   color: #121212;
   /* rotation handled by float-b keyframe */
@@ -1296,7 +1294,7 @@ a {
   }
 
   .catalog-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .section-heading-row,
@@ -1442,4 +1440,11 @@ a {
   .ticker-track {
     animation: none;
   }
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
