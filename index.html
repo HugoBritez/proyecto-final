@@ -1,9 +1,313 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tecno Store</title>
+    <meta
+      name="description"
+      content="Tienda online de proteína, suplementos y accesorios para potenciar tu entrenamiento."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>IRON | Suplementos y proteína</title>
   </head>
-  <body></body>
+  <body class="bg-page" data-page="home">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand">IRON <span>STORE</span></a>
+
+        <nav class="main-nav" aria-label="Navegación principal">
+          <a href="index.html" class="nav-link nav-link-active">Inicio</a>
+          <a href="pages/productos.html" class="nav-link">Productos</a>
+          <a href="pages/carrito.html" class="nav-link nav-cart-link"
+            >Carrito <span class="cart-count" data-cart-count>0</span></a
+          >
+        </nav>
+
+        <a href="pages/productos.html" class="btn btn-primary">Comprar ahora</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="container hero-grid">
+          <div class="hero-copy hero-animate">
+            <p class="eyebrow hero-anim-item">Potencia, foco y rendimiento</p>
+            <h1 class="hero-title hero-anim-item">
+              Subí tu nivel con suplementos que se sienten <span>pro</span>
+            </h1>
+            <p class="hero-description hero-anim-item">
+              Proteína, creatina y pre-entrenos para una rutina más intensa.
+              Estética fuerte, compra clara, productos que realmente rinden.
+            </p>
+
+            <div class="hero-actions hero-anim-item">
+              <a href="pages/productos.html" class="btn btn-primary btn-hero"
+                >Ver productos</a
+              >
+              <a href="#destacados" class="btn btn-secondary"
+                >Explorar destacados</a
+              >
+            </div>
+
+            <div class="hero-stats hero-anim-item">
+              <article class="stat-card card">
+                <span
+                  class="stat-value"
+                  data-count-to="120"
+                  data-count-suffix="+"
+                  >0</span
+                >
+                <span class="stat-label">Clientes activos</span>
+              </article>
+              <article class="stat-card card">
+                <span class="stat-value">24 hs</span>
+                <span class="stat-label">Despacho rápido</span>
+              </article>
+              <article class="stat-card card">
+                <span
+                  class="stat-value"
+                  data-count-to="30"
+                  data-count-prefix="+"
+                  >0</span
+                >
+                <span class="stat-label">Productos en stock</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-visual hero-anim-panel">
+            <div class="hero-panel card">
+              <span class="hero-badge">Stack de fuerza</span>
+
+              <div class="hero-can hero-can-primary hero-float-a">
+                <span class="hero-can-label">WHEY</span>
+                <span class="hero-can-detail">PROTEIN</span>
+              </div>
+
+              <div class="hero-can hero-can-secondary hero-float-b">
+                <span class="hero-can-label">CREA</span>
+                <span class="hero-can-detail">POWER</span>
+              </div>
+
+              <div class="hero-highlight">
+                <p class="highlight-tag">Combo recomendado</p>
+                <h2>Proteína + Creatina + Shaker</h2>
+                <p>
+                  El pack ideal para arrancar: proteína de calidad, creatina
+                  monohidratada y un shaker resistente por un precio directo.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="ticker-wrap" aria-hidden="true">
+        <div class="ticker-track">
+          <span>PROTEÍNA WHEY</span>
+          <span class="ticker-dot">·</span>
+          <span>CREATINA</span>
+          <span class="ticker-dot">·</span>
+          <span>PRE WORKOUT</span>
+          <span class="ticker-dot">·</span>
+          <span>SHAKERS</span>
+          <span class="ticker-dot">·</span>
+          <span>IRON STORE</span>
+          <span class="ticker-dot">·</span>
+          <span>SUPLEMENTOS PREMIUM</span>
+          <span class="ticker-dot">·</span>
+          <span>ENVÍO 24 HS</span>
+          <span class="ticker-dot">·</span>
+          <span>PROTEÍNA WHEY</span>
+          <span class="ticker-dot">·</span>
+          <span>CREATINA</span>
+          <span class="ticker-dot">·</span>
+          <span>PRE WORKOUT</span>
+          <span class="ticker-dot">·</span>
+          <span>SHAKERS</span>
+          <span class="ticker-dot">·</span>
+          <span>IRON STORE</span>
+          <span class="ticker-dot">·</span>
+          <span>SUPLEMENTOS PREMIUM</span>
+          <span class="ticker-dot">·</span>
+          <span>ENVÍO 24 HS</span>
+          <span class="ticker-dot">·</span>
+        </div>
+      </div>
+
+      <section class="info-strip">
+        <div class="container info-strip-grid">
+          <article class="info-item reveal">
+            <span class="info-icon">⚡</span>
+            <div>
+              <span class="info-title">Pre entreno</span>
+              <p>Energía y enfoque desde el primer minuto de la sesión.</p>
+            </div>
+          </article>
+          <article class="info-item reveal">
+            <span class="info-icon">💪</span>
+            <div>
+              <span class="info-title">Proteína whey</span>
+              <p>Recuperación y crecimiento muscular con perfil completo.</p>
+            </div>
+          </article>
+          <article class="info-item reveal">
+            <span class="info-icon">🔥</span>
+            <div>
+              <span class="info-title">Creatina</span>
+              <p>Fuerza máxima, potencia explosiva y mejor rendimiento.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block" id="destacados">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Destacados</p>
+            <h2>Lo más buscado para entrenar fuerte</h2>
+            <p>Tres productos clave para armar un stack completo y potente.</p>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-card card product-accent reveal">
+              <div class="product-visual product-visual-proteina">
+                <span>WHEY</span>
+              </div>
+              <div class="product-card-body">
+                <span class="product-chip">Más vendido</span>
+                <h3>Gold Whey 2LB</h3>
+                <p>
+                  Proteína de rápida absorción para recuperación muscular
+                  después del entrenamiento.
+                </p>
+                <div class="product-meta">
+                  <span class="product-price">$42.999</span>
+                  <span class="product-note">Sabor vainilla</span>
+                </div>
+                <button
+                  class="btn btn-primary"
+                  type="button"
+                  data-add-to-cart
+                  data-product-id="whey-gold-2lb"
+                >
+                  Agregar al carrito
+                </button>
+              </div>
+            </article>
+
+            <article class="product-card card reveal">
+              <div class="product-visual product-visual-creatina">
+                <span>CREA</span>
+              </div>
+              <div class="product-card-body">
+                <span class="product-chip">Potencia</span>
+                <h3>Creatina Monohidratada</h3>
+                <p>
+                  Rendimiento explosivo, mejor recuperación entre series y apoyo
+                  para fuerza máxima.
+                </p>
+                <div class="product-meta">
+                  <span class="product-price">$24.500</span>
+                  <span class="product-note">300 g</span>
+                </div>
+                <a href="pages/productos.html" class="btn btn-secondary"
+                  >Ver detalle</a
+                >
+              </div>
+            </article>
+
+            <article class="product-card card reveal">
+              <div class="product-visual product-visual-pre">
+                <span>PRE</span>
+              </div>
+              <div class="product-card-body">
+                <span class="product-chip">Energía</span>
+                <h3>Pre Workout Nitro</h3>
+                <p>
+                  Fórmula con cafeína y enfoque mental para levantar la
+                  intensidad desde el primer minuto.
+                </p>
+                <div class="product-meta">
+                  <span class="product-price">$29.900</span>
+                  <span class="product-note">30 servicios</span>
+                </div>
+                <a href="pages/productos.html" class="btn btn-secondary"
+                  >Ver detalle</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-band">
+        <div class="container cta-band-inner">
+          <div>
+            <p class="cta-band-label">Catálogo completo</p>
+            <p class="cta-band-title">+30 productos para rendir más</p>
+          </div>
+          <a href="pages/productos.html" class="btn btn-primary btn-lg"
+            >Ver todos los productos →</a
+          >
+        </div>
+      </section>
+
+      <section class="section-block section-alt">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Por qué IRON STORE</p>
+            <h2>Pensado para el que entrena en serio</h2>
+          </div>
+          <div class="benefits-grid">
+            <article class="benefit-card card reveal">
+              <span class="benefit-number">01</span>
+              <h3>Productos que funcionan</h3>
+              <p>
+                Solo marcas con respaldo real, sin relleno ni ingredientes de
+                baja calidad.
+              </p>
+            </article>
+
+            <article class="benefit-card card reveal">
+              <span class="benefit-number">02</span>
+              <h3>Compra sin fricción</h3>
+              <p>
+                Catálogo claro, precios visibles y carrito directo. Sin
+                distracciones ni pasos de más.
+              </p>
+            </article>
+
+            <article class="benefit-card card reveal">
+              <span class="benefit-number">03</span>
+              <h3>Despacho en 24 hs</h3>
+              <p>
+                Hacé el pedido hoy y mañana ya lo tenés en casa para no perder
+                ni una sesión.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <p class="brand footer-brand">IRON <span>STORE</span></p>
+          <p class="footer-copy">
+            Suplementos, proteína y accesorios para entrenar con más potencia.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <a href="index.html">Inicio</a>
+          <a href="pages/productos.html">Productos</a>
+          <a href="pages/carrito.html">Carrito</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>

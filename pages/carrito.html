@@ -1,9 +1,113 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Carrito</title>
+    <meta
+      name="description"
+      content="Carrito de compras de IRON STORE con resumen de productos y total estimado."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <title>IRON | Carrito</title>
   </head>
-  <body></body>
+  <body class="bg-page" data-page="carrito">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="../index.html" class="brand">IRON <span>STORE</span></a>
+
+        <nav class="main-nav" aria-label="Navegación principal">
+          <a href="../index.html" class="nav-link">Inicio</a>
+          <a href="productos.html" class="nav-link">Productos</a>
+          <a href="carrito.html" class="nav-link nav-link-active nav-cart-link"
+            >Carrito <span class="cart-count" data-cart-count>0</span></a
+          >
+        </nav>
+
+        <a href="productos.html" class="btn btn-secondary">Seguir comprando</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero page-hero-compact">
+        <div class="container page-hero-grid">
+          <div>
+            <p class="eyebrow">Tu compra</p>
+            <h1 class="page-title">Carrito IRON listo para cerrar</h1>
+            <p class="page-description">
+              Revisá productos, ajustá cantidades y visualizá un resumen claro
+              del pedido antes de avanzar.
+            </p>
+          </div>
+
+          <aside class="page-hero-card card">
+            <p class="product-chip">Entrega express</p>
+            <h2>Simulación simple para la entrega</h2>
+            <p>
+              Carrito académico con `localStorage`, cantidades, subtotal y
+              total.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <div class="container cart-layout">
+          <section
+            class="cart-main"
+            id="cart-items"
+            aria-live="polite"
+          ></section>
+
+          <aside class="cart-summary card" id="cart-summary">
+            <p class="eyebrow">Resumen</p>
+            <h2>Total del pedido</h2>
+
+            <div class="summary-line">
+              <span>Productos</span>
+              <strong data-summary-items>0</strong>
+            </div>
+            <div class="summary-line">
+              <span>Subtotal</span>
+              <strong data-summary-subtotal>$0</strong>
+            </div>
+            <div class="summary-line">
+              <span>Envío</span>
+              <strong>Gratis</strong>
+            </div>
+
+            <div class="summary-total">
+              <span>Total</span>
+              <strong data-summary-total>$0</strong>
+            </div>
+
+            <button class="btn btn-primary btn-full" type="button">
+              Finalizar compra
+            </button>
+            <a href="productos.html" class="btn btn-secondary btn-full"
+              >Agregar más productos</a
+            >
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <p class="brand footer-brand">IRON <span>STORE</span></p>
+          <p class="footer-copy">
+            Una experiencia de carrito clara, potente y fácil de explicar.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <a href="../index.html">Inicio</a>
+          <a href="productos.html">Productos</a>
+          <a href="carrito.html">Carrito</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../script.js"></script>
+  </body>
 </html>

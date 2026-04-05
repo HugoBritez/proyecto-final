@@ -1,9 +1,137 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Productos</title>
+    <meta
+      name="description"
+      content="Catálogo de proteína, creatina, pre-entrenos y accesorios de IRON STORE."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <title>IRON | Productos</title>
   </head>
-  <body></body>
+  <body class="bg-page" data-page="productos">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="../index.html" class="brand">IRON <span>STORE</span></a>
+
+        <nav class="main-nav" aria-label="Navegación principal">
+          <a href="../index.html" class="nav-link">Inicio</a>
+          <a href="productos.html" class="nav-link nav-link-active"
+            >Productos</a
+          >
+          <a href="carrito.html" class="nav-link nav-cart-link"
+            >Carrito <span class="cart-count" data-cart-count>0</span></a
+          >
+        </nav>
+
+        <a href="carrito.html" class="btn btn-primary">Ver carrito</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero page-hero-compact">
+        <div class="container page-hero-grid">
+          <div>
+            <p class="eyebrow">Catálogo IRON</p>
+            <h1 class="page-title">
+              Suplementos para entrenar con potencia real
+            </h1>
+            <p class="page-description">
+              Un catálogo simple pero con presencia. Proteínas, creatina,
+              energía previa al entrenamiento y accesorios para completar la
+              compra.
+            </p>
+          </div>
+
+          <aside class="page-hero-card card">
+            <p class="product-chip">Selección del mes</p>
+            <h2>Armate un stack ganador</h2>
+            <p>
+              Combiná proteína, creatina y pre entreno para una rutina más
+              completa y una tienda más convincente.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <div class="container">
+          <div class="section-heading section-heading-row">
+            <div>
+              <p class="eyebrow">Filtrar</p>
+              <h2>Elegí tu categoría</h2>
+            </div>
+
+            <div class="filter-group" data-filter-controls>
+              <button
+                class="filter-chip is-active"
+                type="button"
+                data-filter="todos"
+              >
+                Todos
+              </button>
+              <button class="filter-chip" type="button" data-filter="proteina">
+                Proteína
+              </button>
+              <button class="filter-chip" type="button" data-filter="creatina">
+                Creatina
+              </button>
+              <button
+                class="filter-chip"
+                type="button"
+                data-filter="pre-entreno"
+              >
+                Pre entreno
+              </button>
+              <button
+                class="filter-chip"
+                type="button"
+                data-filter="accesorios"
+              >
+                Accesorios
+              </button>
+            </div>
+          </div>
+
+          <div class="catalog-grid" id="products-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="section-block section-alt">
+        <div class="container promo-banner card">
+          <div>
+            <p class="eyebrow">Compra inteligente</p>
+            <h2>Más foco, más fuerza, mejor presencia</h2>
+            <p>
+              Esta base ya está lista para seguir creciendo con más productos,
+              badges, descuentos o packs especiales.
+            </p>
+          </div>
+
+          <a href="carrito.html" class="btn btn-primary">Ir al carrito</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <p class="brand footer-brand">IRON <span>STORE</span></p>
+          <p class="footer-copy">
+            Catálogo de suplementos para una tienda académica con mucha más
+            onda.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <a href="../index.html">Inicio</a>
+          <a href="productos.html">Productos</a>
+          <a href="carrito.html">Carrito</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../script.js"></script>
+  </body>
 </html>
